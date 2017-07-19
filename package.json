@@ -1,0 +1,32 @@
+{
+  "name": "brunch-app",
+  "description": "Brunch.io application",
+  "private": true,
+  "author": "Brunch",
+  "homepage": "http://effulgence.io/",
+  "version": "0.0.1",
+  "repository": "",
+  "scripts": {
+    "start": "brunch watch --server",
+    "build": "brunch build --production",
+    "deploy": "ghpages -d public"
+  },
+  "dependencies": {
+    "aframe": "^0.6.0",
+    "aframe-animation-component": "^3.2.5",
+    "aframe-bmfont-text-component": "^0.1.4",
+    "aframe-particle-system-component": "^1.0.10",
+    "aframe-react": "^4.3.0",
+    "preact": "^8.1.0"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2",
+    "babel-brunch": "~6.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-latest": "^6",
+    "brunch": "^2",
+    "clean-css-brunch": "^2",
+    "ghpages": "0.0.3",
+    "uglify-js-brunch": "^2"
+  }
+}
