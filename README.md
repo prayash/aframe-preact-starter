@@ -35,15 +35,14 @@ yarn add --save aframe aframe-react react react-dom
 
 ## Example
 
-```js
+```javascript
+import 'aframe'
+import { h, Component, render } from 'preact'
+import { Entity, Scene } from 'aframe-react'
+import 'aframe-particle-system-component'
+import 'aframe-animation-component'
 
-import 'aframe';
-import 'aframe-particle-system-component';
-import {Entity, Scene} from 'aframe-react';
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-class VRScene extends React.Component {
+class App extends React.Component {
   render () {
     return (
       <Scene>
@@ -57,8 +56,12 @@ class VRScene extends React.Component {
   }
 }
 
-ReactDOM.render(<VRScene/>, document.querySelector('#sceneContainer'));
+document.addEventListener('DOMContentLoaded', () => {
+  render(<App />, document.querySelector('#app'))
+})
 ```
+
+The following has been extracted from the [aframe-react](https://github.com/aframevr/aframe-react) page, but the same concepts still apply to Preact.
 
 ## Introduction
 

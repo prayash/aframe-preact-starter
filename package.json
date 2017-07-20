@@ -1,11 +1,11 @@
 {
-  "name": "brunch-app",
-  "description": "Brunch.io application",
+  "name": "A-Frame and Preact Starter Kit",
+  "description": "A boilerplate project for getting started with WebVR using A-Frame and Preact",
   "private": true,
-  "author": "Brunch",
+  "author": "Prayash Thapa",
   "homepage": "http://effulgence.io/",
-  "version": "0.0.1",
-  "repository": "",
+  "version": "1.0.0",
+  "repository": "https://github.com/prayasht/aframe-preact-starter/",
   "scripts": {
     "start": "brunch watch --server",
     "build": "brunch build --production",
