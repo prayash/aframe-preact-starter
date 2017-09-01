@@ -1,10 +1,7 @@
-import 'aframe'
 import { h, Component } from 'preact'
 import { Entity, Scene } from 'aframe-react'
-import 'aframe-particle-system-component'
-import 'aframe-animation-component'
 
-export default class App extends Component {
+class Main extends Component {
   constructor(props) {
     super(props)
     this.state = { color: 'red' }
@@ -102,3 +99,5 @@ export default class App extends Component {
     )
   }
 }
+
+export default Main
