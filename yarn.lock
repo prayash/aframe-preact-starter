@@ -31,6 +31,10 @@ aframe-bmfont-text-component@^0.1.4:
     object-assign "^4.1.0"
     three-bmfont-text "^2.1.0"
 
+aframe-event-set-component@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/aframe-event-set-component/-/aframe-event-set-component-3.0.3.tgz#0b5556fefde3af81b55592e5f3c77e67fe2b76e2"
+
 aframe-particle-system-component@^1.0.10:
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/aframe-particle-system-component/-/aframe-particle-system-component-1.0.10.tgz#dc2174072f4ef7d1757a1bfd3d86be4e8768bb30"

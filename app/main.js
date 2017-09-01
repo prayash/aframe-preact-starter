@@ -1,9 +1,17 @@
+/**
+ * @fileoverview 
+ * This is our main A-Frame application.
+ * It defines the main A-Frame Scene which gets mounted root div.
+ */
+
 import { h, Component } from 'preact'
 import { Entity, Scene } from 'aframe-react'
 
+const COLORS = ['#D92B6A', '#9564F2', '#FFCF59']
+
 class Main extends Component {
-  constructor(props) {
-    super(props)
+  constructor() {
+    super()
     this.state = { color: 'red' }
   }
 
