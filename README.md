@@ -24,7 +24,7 @@
     * Place static files you want to be copied from `app/assets/` to `public/`.
     * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
   
-Install with [npm](https://www.npmjs.com/package/aframe-preact) or
+Install with [npm](https://www.npmjs.com/package/aframe-react) or
 [yarn](https://github.com/yarnpkg/yarn).
 
 ```
