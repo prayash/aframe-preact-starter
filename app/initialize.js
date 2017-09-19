@@ -9,7 +9,7 @@ import 'aframe'
 import 'aframe-animation-component'
 import 'aframe-event-set-component'
 import 'aframe-particle-system-component'
-import './components/aframe-lowpoly'
+import './components/aframe-custom'
 import './components/aframe-environment'
 import './components/aframe-effects'
 
